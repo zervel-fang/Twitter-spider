@@ -9,11 +9,11 @@ import emoji
 import re
 x=getproxies()
 print(x)
-#### set your key  and secrets, where you can access by apply a twitter developer account
-consumer_key = 'UmV3a7GjrVjM5bF01b2du7H6x'
-consumer_secret = 'yhULZoSh5GBOqgSD3F4nssDvcOBn6tr6mxq84hhtvugBBqvsHV'
-access_token = '1274010385859792901-7KVcnw1JbrPJcMnfNDQCpZin50Ya5v'
-access_secret = 'S624HvfoXHrfTR6kV49VlG4dutPwHci4u2siGxeG0NHKG'
+#### set your key  and secrets, where you can access by applying a twitter developer account
+consumer_key = 'xxxx'
+consumer_secret = 'xxxx'
+access_token = 'xxxx'
+access_secret = 'xxxx'
 def retrieve_tweets(input_file,outputfile):
     # Authorization with Twitter
     auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
